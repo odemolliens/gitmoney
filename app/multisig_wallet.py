@@ -89,8 +89,14 @@ class multisig_wallet(object):
             print('Wallet ID: ' + walletId + '\n')
             print('Your wallet config file can be found at: ' + DEFAULT_WALLET_PATH)
 
+        try:
+            multisig_wallet.set_webhook(user, '/webhooks', 0)
+        except:
+            print('Could not set webhook')
+        
         print('Created a new wallet for: ' + username)       
         print(r.json()['wallet']['id'])
+
         return r.json()['wallet']['id']
         
     @staticmethod
