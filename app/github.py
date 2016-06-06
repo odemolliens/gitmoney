@@ -3,8 +3,8 @@ import requests, urllib
 from flask import g
 from app.twitter import twitter
 from commonregex import CommonRegex
-from two1.lib.wallet.hd_account import HDAccount
-from two1.lib.wallet.two1_wallet import Two1Wallet
+from two1.wallet.hd_account import HDAccount
+from two1.wallet.two1_wallet import Two1Wallet
 from app.multisig_wallet import multisig_wallet
 
 config_path = os.path.dirname(os.path.realpath(__file__)) + '/../config/config.json'
