@@ -1,5 +1,3 @@
-Love Git'n Money? [Donate](https://live.blockcypher.com/btc/address/3H1YSG26mhENqQMG8hSrTNbaBnopWNNiNP) _All proceeds will go to bounties_
-
 # Why Git Money?
 
 Because something's not right in the world. All you need to do is turn on your
@@ -25,9 +23,9 @@ are welcome to join us.
 
 ## What is Git Money?
 
-[Git Money](http://gitmoney.io) was made with a [21 Bitcoin
-Computer](https://21.co/buy/) and enables you to work on whatever you want,
-regardless of who you are, where you live, or what you believe and get paid in
+[Git Money](http://gitmoney.io) was built on top of [21](https://21.co/) and
+enables you to work on whatever you want, regardless of who you are, where you
+live, or what you believe and get paid in
 bitcoin.
 
 ## How it works:
@@ -61,20 +59,20 @@ how you want to **git money**.
 ## Interested in running Git Money in your own repository?
 
 ### Requirements
-- 21 Bitcoin Computer [https://21.co/buy](https://21.co/buy)
+- 21 [https://21.co/](https://21.co/)
 - GitHub Repository [https://github.com/](https://github.com/)
 - BitGo Express [https://github.com/BitGo/bitgo-express](https://github.com/BitGo/bitgo-express)
 
 ### How it works
-1. From the command line on a 21 Bitcoin Computer, run `gitmoney ISSUE DESCRIPTION` with the issue title and the description of the issue that you would like to post to GitHub.
+1. From the command line on a 21-enabled computer, run `gitmoney ISSUE DESCRIPTION` with the issue title and the description of the issue that you would like to post to GitHub.
 2. Assuming that no errors were encountered, your issue should now appear in your GitHub repository.
 3. Post links to your issue on the Internet (Reddit, Twitter, other social media).
 4. Review pull requests resolving the issue as they come in.
 5. Merge the pull request that best resolves the issue to unlock the payout.
 
 ### Installation instructions
-1. Install the git-money repository on your 21 Bitcoin Computer as you would with any GitHub repository.
-2. In the git-money folder that you just installed on your 21 Bitcoin Computer, run `sudo pip3 install --editable .` to install the gitmoney CLI functionality.
+1. Install the git-money repository on your 21-enabled computer as you would with any GitHub repository.
+2. In the git-money folder that you just installed on your 21-enabled computer, run `sudo pip3 install --editable .` to install the gitmoney CLI functionality.
 3. Procure a GitHub access token from a repo admin account **[here](https://github.com/settings/tokens)**.
 4. Procure a BitGo access token **[here](https://www.bitgo.com)**.
 5. Procure Twitter access tokens
