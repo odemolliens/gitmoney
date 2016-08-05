@@ -1,9 +1,9 @@
-from two1.lib.blockchain.exceptions import DataProviderError
-from two1.lib.wallet.exceptions import WalletBalanceError
-from two1.lib.util.decorators import json_output
+from two1.blockchain.exceptions import DataProviderError
+from two1.wallet.exceptions import WalletBalanceError
+from two1.commands.util.decorators import json_output
 
 from two1.commands.config import Config
-from two1.commands.config import TWO1_HOST
+from two1 import TWO1_HOST
 
 conf = Config()
 
