@@ -23,10 +23,9 @@ are welcome to join us.
 
 ## What is Git Money?
 
-[Git Money](http://gitmoney.io) was built on top of [21](https://21.co/) and
+[Git Money](http://gitmoney.online) was built on top of [21](https://21.co/) and
 enables you to work on whatever you want, regardless of who you are, where you
-live, or what you believe and get paid in
-bitcoin.
+live, or what you believe and get paid in bitcoin.
 
 ## How it works:
 
